@@ -33,7 +33,7 @@
 
 
 # Ole Backend Team
-### [📚 Knock Team Notion](https://www.notion.so/Knock-a9dbba271c2645559d9a1d965357e146) <br>
+### [📚 Ole Team Notion](https://www.notion.so/cf4d947709124ce79e4ed832cca0266e) <br>
 
 |     | 이름   | 
 |-----|------|
