@@ -6,7 +6,7 @@
 
 <br><br>
 
-# 올래 🚪
+# 올래 👴
 ### 시니어 교육 매칭 웹서비스 
 <br>
 
@@ -35,12 +35,12 @@
 # Ole Backend Team
 ### [📚 Knock Team Notion](https://www.notion.so/Knock-a9dbba271c2645559d9a1d965357e146) <br>
 
-|     | 이름   | Github |
-|-----|------|--------|
-| BE 팀장 | 신희민  | https://github.com/YeowonKIM |
-| BE 팀원 | 김나현  | https://github.com/hunny-A |
-| BE 팀원 | 박재용  | https://github.com/jyparkDev |
-| BE 팀원 | 정선연  | https://github.com/sunyeon-Jeong |
+|     | 이름   | 
+|-----|------|
+| BE 팀장 | 신희민  |
+| BE 팀원 | 한진경  |
+| BE 팀원 | 최현욱  |
+| BE 팀원 | 임효진  |
 
 <br><br>
 
@@ -61,6 +61,7 @@
   - 댓글, 로그 기능
 - ### 기간 :
   - 2023.03.10 ~ 2023.04.21
+  - duty sheet : 
 
 <br><br><br>
 
@@ -104,6 +105,17 @@
 
 <br>
 
+# Use-Case Diagram 
+<details>
+<summary> Use-Case 펼쳐보기 </summary>
+<div markdown="1">  
+![올래 Usecase drawio (1)](https://github.com/Vida0822/OOP/assets/132312673/63c45684-5aac-4300-ac45-ff9a7e244550)
+
+</div>
+</details>
+
+<br><br>
+
 # ERD
 <details>
 <summary> ERD 펼쳐보기 </summary>
@@ -117,7 +129,7 @@
 <br><br>
 
 # API 명세서
-[📄 API 바로가기](https://www.notion.so/API-7576e48635ea4890a06d95cc2657a1a0)
+[📄 API 바로가기]()
 
 <br><br>
 
