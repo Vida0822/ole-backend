@@ -100,5 +100,5 @@ configurations {
 */
 
 jar {
-    enabled = false
+    enabled = true
 }
