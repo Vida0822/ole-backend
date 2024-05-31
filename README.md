@@ -109,7 +109,8 @@
 <details>
 <summary> Use-Case 펼쳐보기 </summary>
 <div markdown="1">  
-https://github.com/Vida0822/OOP/assets/132312673/63c45684-5aac-4300-ac45-ff9a7e244550
+![image](https://github.com/Vida0822/OOP/assets/132312673/63c45684-5aac-4300-ac45-ff9a7e244550)
+
 </div>
 </details>
 
