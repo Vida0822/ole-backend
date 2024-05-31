@@ -8,8 +8,8 @@
 
 <br><br>
 
-# Knock 🚪
-### B2B SaaS 사내문서 검색서비스
+# 올래 🚪
+### 시니어 교육 매칭 웹서비스 
 <br>
 
 <b>1. Search</b>
@@ -34,12 +34,12 @@
   <br><br><br><br>
 
 
-# Knock Backend Team
+# Ole Backend Team
 ### [📚 Knock Team Notion](https://www.notion.so/Knock-a9dbba271c2645559d9a1d965357e146) <br>
 
 |     | 이름   | Github |
 |-----|------|--------|
-| BE 팀장 | 김여원  | https://github.com/YeowonKIM |
+| BE 팀장 | 신희민  | https://github.com/YeowonKIM |
 | BE 팀원 | 김나현  | https://github.com/hunny-A |
 | BE 팀원 | 박재용  | https://github.com/jyparkDev |
 | BE 팀원 | 정선연  | https://github.com/sunyeon-Jeong |
