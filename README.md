@@ -2,8 +2,6 @@
 
 <div align=center>
 
-![image](https://blog.kakaocdn.net/dn/bztGQh/btsaw9ePO9D/pjNReUpXKg8aIXAruhgCu1/img.gif)
-
 </div>
 
 <br><br>
