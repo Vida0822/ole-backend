@@ -124,8 +124,9 @@
 <details>
 <summary> ERD 펼쳐보기 </summary>
 <div markdown="1">  
+  
+  ![그림3](https://github.com/Vida0822/Algorithm_Study/assets/132312673/1bf815ae-80d5-47bf-8090-dde9e92fb9bd)
 
-![image](https://github.com/Vida0822/OOP/assets/132312673/be7ecadf-f290-43eb-a31f-b660764733e2)
 
 </div>
 </details>
