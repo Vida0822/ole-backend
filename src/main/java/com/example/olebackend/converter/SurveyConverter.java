@@ -1,12 +1,8 @@
 package com.example.olebackend.converter;
 
-import com.example.olebackend.domain.File;
 import com.example.olebackend.domain.Lesson;
 import com.example.olebackend.domain.SubCategory;
 import com.example.olebackend.web.dto.SurveyResponse;
-
-import java.util.List;
-import java.util.Optional;
 
 public class SurveyConverter {
 

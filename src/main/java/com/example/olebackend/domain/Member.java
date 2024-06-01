@@ -53,10 +53,8 @@ public class Member extends BaseEntity {
 //    @Column(nullable = false)
     private boolean smsAgree; // 문자 수신 동의
 
-
-    @OneToOne(mappedBy = "member",fetch = FetchType.LAZY)
-    private File file ;
-
+    private String imageUrl ; // 프로필 사진
+    
     @OneToMany(mappedBy = "member",fetch = FetchType.LAZY , cascade = CascadeType.REMOVE)
     @Builder.Default
     private List<Likes> likes = new ArrayList<>() ;

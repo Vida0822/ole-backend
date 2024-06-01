@@ -97,9 +97,4 @@ public class Lesson extends BaseEntity {
     @Builder.Default
     private List<Likes> likes = new ArrayList<>() ;
 
-
-    @OneToMany(mappedBy = "lesson", cascade = CascadeType.REMOVE)
-    @Builder.Default
-    private List<File> fileList = new ArrayList<>() ;
-
 }

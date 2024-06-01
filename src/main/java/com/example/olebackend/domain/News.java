@@ -40,10 +40,6 @@ public class News extends BaseEntity {
         this.views++;
     }
 
-    @OneToMany(mappedBy = "news", cascade = CascadeType.REMOVE)
-    @Builder.Default
-    private List<File> fileList = new ArrayList<>();
-
     @OneToMany(mappedBy = "news", fetch = FetchType.LAZY, cascade = CascadeType.REMOVE)
     @Builder.Default
     private List<NewsImage> imageList = new ArrayList<>();

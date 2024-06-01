@@ -1,6 +1,5 @@
 package com.example.olebackend.converter;
 
-import com.example.olebackend.domain.File;
 import com.example.olebackend.domain.News;
 import com.example.olebackend.domain.NewsImage;
 import com.example.olebackend.web.dto.NewsResponse;

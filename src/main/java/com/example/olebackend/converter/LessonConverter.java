@@ -1,9 +1,7 @@
 package com.example.olebackend.converter;
 
-import com.example.olebackend.domain.File;
 import com.example.olebackend.domain.Lesson;
 import com.example.olebackend.domain.mapping.LectureTeacher;
-import com.example.olebackend.domain.mapping.Likes;
 import com.example.olebackend.web.dto.LessonResponse;
 import org.springframework.data.domain.Page;
 
