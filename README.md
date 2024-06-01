@@ -1,6 +1,6 @@
 <br>
 
-<div align=center>
+<div align=left>
   
 ![image](https://github.com/Vida0822/Algorithm_Study/assets/132312673/a9c6839f-7cb2-40c2-9973-63d47bd68ca5)
 
