@@ -13,22 +13,22 @@
 ### 시니어 교육 매칭 웹서비스 
 <br>
 
-<b>1. Search</b>
+<b>1. Matching </b>
 - #동료에게물어보기힘든것 #내가놓친것
 - 고민하지 말고 Knock에 물어보자!
 - 헝태소 분석과 중요도 계산으로 연관성이 높은 게시글이 빠르게 검색 돼요!
 
-<b>2. Security</b>
+<b>2. Security </b>
 - #사내문서 #보안이생명
 - 각 회사별 Admin이 있고, Admin을 통해서만 Member를 등록할 수 있어요.
 - 읽기/수정하기 권한을 직급별로 부여할 수 있어요!
 
-<b>3. Community</b>
+<b>3. Community   </b>
 - 카테고리를 나누어, 용도별로 관리해요!
 - 게시글의 편집 상태를 확인할 수 있고, 동료가 편집이 끝나면 알림을 받을 수 있어요.
 - 댓글과 편집 로그를 통해 소통이 활발한 사내분위기를 만들어요!
 
-<b>4. D.I.Y</b>
+<b>4. Search </b>
 - #내가원하는대로 #내맘대로 #다꾸아닌문꾸
 - 즐겨찾기 기능이 있어, 내가 원하는 글을 원하는 폴더에 넣어 꾸밀 수 있어요!
 - 즐겨찾기 폴더는 나만 볼 수 있으니, 안심하고 넣을 수 있어요!
@@ -205,11 +205,6 @@
 <details>
 <summary> SSE </summary>
 <div markdown="1">
-    <br>
-    (1) 편집 상태를 알고, 편집이 완료 되면 알림을 보내는 기능을 위해 API call 대신 다른 방식을 고민함. <br>
-    (2) SSE는 서버- 클라이언트의 단방향 통신으로 지속적인 연결을 통해,  서버의 데이터를 실시간으로 클라이언트로 보낸다는 점과 <br>
-    &nbsp;&nbsp;&nbsp;&nbsp;처음 한 번 맺은 HTTP 연결을 통해 서버는 클라이언트로 지속적으로 데이터 전송이 가능하다는 점에서 사용함. <br>
-   👉 https://www.notion.so/SSE-d46754926bdd4ba2a69be6a6e94405a2 <br>
 
 </div>
 </details>
@@ -218,11 +213,7 @@
 <details>
 <summary> 임시 인증코드 저장 </summary>
 <div markdown="1">
-    <br>
-    (1) 아이디와 비밀번호를 잊었을 때 확인할 수 있는 인증코드를 발급받을 경우, 일정 시간동안 임시로 인증코드를 어떻게 유지할지 고민함. <br>
-    (2) 임시 인증코드는 오래 저장할 필요가 없기도 하고, 중요하지 않은 데이터를 찾을 때 발생하는 시간과 부담을 줄이기 위해 Redis를 선택함. <br>
-   (In-memory 형태로 운영중인 웹 서버에서 I/O가 빈번히 발생할때 주로 사용한다는 점과 만료일을 지정하면 만료된 데이터는 캐시처럼 사라진다는 점에서 도입)<br>
-    👉 https://www.notion.so/Redis-5f74e46c591d47108d4bf692b29ba3aa
+
 </div>
 </details>
 
@@ -231,11 +222,6 @@
 <summary> CI / CD </summary>
 <div markdown="1">
     <br>
-  
-   - 문제 상황 : Github Actions 스크립트 파일 중 EC2 서버에서 Docker Image 실행 실패 에러.<br>
-   - 원인 : SSH로 Knock EC2 서버를 연결하려 할 때 거부됨.<br>
-   - 해결 : Github-Actions의 secrets의 key 설정을 pem.key와 ec2의 password 두 방법으로 해 보고 해결됨. <br>
-    👉 https://www.notion.so/CI-CD-78da8d9f7b4f4f6bba947b7e7ffda2b1
 
 
 </div>
