@@ -117,13 +117,16 @@
 
 | 설문조사 매칭 기능 | 검색 필터 |
 |:------:|:------:|
-| <img width="250" alt="화면 캡처 2024-06-05 170518" src="https://github.com/Vida0822/Algorithm_Study/assets/132312673/e1bc7442-cf7d-48d2-bfa8-9daf00534736"> | ![편집상태]() |
-|- 8가지 항목에 대한 최적의 강의 추천 <br> - 이전 설문 내역 기반 맞춤 리스트 출력  | - 카테고리별 검색 <br> - 검색 필터(연관순, 댓글순, 조회순, 최신순) 제공 <br> |
+| <img width="250" alt="화면 캡처 2024-06-05 170518" src="https://github.com/Vida0822/Algorithm_Study/assets/132312673/e1bc7442-cf7d-48d2-bfa8-9daf00534736"> | 
+<img width="250" alt="화면 캡처 2024-06-05 170518" src="https://github.com/Vida0822/Algorithm_Study/assets/132312673/08ab1df4-98ba-46d1-a28d-bc3039f01479">
+ |
+|- 8가지 항목에 대한 최적의 강의 추천 <br> - 이전 설문 내역 기반 맞춤 리스트 출력  | - 카테고리별 검색 <br> - 검색 필터(최신순, 마감순, 신청자순) 제공 <br> |
 | [시연](https://drive.google.com/drive/u/0/home) | [시연]()
 
 |  찜, 수강신청 기능 | 커뮤니티, 뉴스 기능 |
 |:------:|:------:|
-| ![관리자]() | ![댓글로그]() |
+| <img width="250" alt="화면 캡처 2024-06-05 170518" src="https://github.com/Vida0822/Algorithm_Study/assets/132312673/08ab1df4-98ba-46d1-a28d-bc3039f01479"> | 
+![댓글로그]() |
 |- 비회원도 손쉽게 교육 등록 <br> - 수강 내역 조회 및 등록 관리 <br> |- 다양한 의견을 나누는 커뮤니티 <br> - 유익한 정보를 제공하는 생활 뉴스 <br> |
 
 <br><br>
