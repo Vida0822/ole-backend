@@ -14,24 +14,18 @@
 <br>
 
 <b>1. Matching </b>
-- #동료에게물어보기힘든것 #내가놓친것
-- 고민하지 말고 Knock에 물어보자!
-- 헝태소 분석과 중요도 계산으로 연관성이 높은 게시글이 빠르게 검색 돼요!
+- #설문조사 #최적의성능 
+
 
 <b>2. Security </b>
-- #사내문서 #보안이생명
-- 각 회사별 Admin이 있고, Admin을 통해서만 Member를 등록할 수 있어요.
-- 읽기/수정하기 권한을 직급별로 부여할 수 있어요!
+- #보안이생명
+
 
 <b>3. Community   </b>
-- 카테고리를 나누어, 용도별로 관리해요!
-- 게시글의 편집 상태를 확인할 수 있고, 동료가 편집이 끝나면 알림을 받을 수 있어요.
-- 댓글과 편집 로그를 통해 소통이 활발한 사내분위기를 만들어요!
+
 
 <b>4. Search </b>
-- #내가원하는대로 #내맘대로 #다꾸아닌문꾸
-- 즐겨찾기 기능이 있어, 내가 원하는 글을 원하는 폴더에 넣어 꾸밀 수 있어요!
-- 즐겨찾기 폴더는 나만 볼 수 있으니, 안심하고 넣을 수 있어요!
+- #내가원하는대로 
   <br><br><br><br>
 
 
@@ -49,19 +43,8 @@
 
 # 프로젝트 세부사항
 - ### 구현 영상<br>
-  - [최종 발표영상 📷](https://youtu.be/lwkJ1jiaoyk) <br>
-- ###  구현목표
-  - 검색 성능 : 형태소 분석을 통한 정확하고 빠른 검색 결과 제공
-  - 편집상태 알림 : 게시글의 편집상태를 보여주고, 편집이 완료되면 알림 제공
-  - 개인별 문서 관리 : 자신이 작성한 문서를 관리하고, 필요한 사내 문서들은 폴더로 관리
-  - 게시글 공유 커뮤니티 : 댓글을 통해 소통하고, 편집 로그를 확인하여 다른 직원들의 편집 내역을 조회 가능
-  - 로그 기능 : 게시글이 편집되어 왔던 기록을 과거와 현재로 모두 열람 가능
-- ###  구현기능
-  - 검색 및 유형별 조회 기능
-  - 게시물 상세페이지 기능
-  - 마이페이지, 즐겨찾기 기능
-  - 관리자 페이지 기능 (회사, 사원, 카테고리 등 관리)
-  - 댓글, 로그 기능
+  - [최종 발표영상 📷]() <br>
+
 - ### 기간 :
   - 2023.03.10 ~ 2023.04.21
   - duty sheet : 
@@ -104,7 +87,6 @@
 <br><br><br><br>
 
 # Service Architecture
-![🛠️ image](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcqJt5s%2FbtsaXl6DMeO%2FBrNlkwhkQu7PazYIxRGTxk%2Fimg.png)
 
 <br>
 
@@ -140,7 +122,7 @@
 
 # 주요 기능
 
-| 문서 검색 및 유형별 조회 기능 | 편집상태 조회 기능 |
+| 설문조사 기능 | 편집상태 조회 기능 |
 |:------:|:------:|
 | ![검색 조회](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F4uwWX%2FbtsaJUVJxPH%2FFWx8neryT434R63qB3k9Qk%2Fimg.png) | ![편집상태](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeRf5I5%2FbtsaqPOT3LP%2FXBLW7tgwkHmAYiEu6TBvy1%2Fimg.png) |
 |- 제목, 내용, 키워드 조회를 통한 우수한 검색 성능<br> - 카테고리별 검색<br> - 검색 필터(연관순, 댓글순, 조회순, 최신순) 제공 <br> |- 게시글 편집 상태 조회<br> - 편집 완료된 경우 수정을 원하는 사용자에게 알림<br> |
@@ -172,16 +154,8 @@
 👉 https://www.notion.so/STEP1-fad9129c662e44859f1ff7d4df0dd75f
 <br><br>
 
-(2) [STEP2]&nbsp;  형태소 분석 라이브러리의 설정 변경<br>
-- 문제 및 원인 : Komoran 라이브러리 자체의 실행속도가 느림. (실행 속도의 2/3이상을 차지) <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;해당 라이브러리의 메모리 사용 문제. <br>
-- 해결 : 형태소 분석에 사용하는 설정을 변경함으로써 메모리 최적화.
-- 결과 : 부하테스트 쓰레드 10배 정도 증가 가능(40 -> 400)<br> 
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;실행속도 1/10 (1.5초 -> 0.5초대로 개선)<br>
-  👉 https://www.notion.so/STEP2-4bd04dd85a6e4edb9b5e8dc47f6fcc27
-  <br><br>
   
-(3) [STEP3]&nbsp; 키워드 검색시 쿼리 개선 (Query DSL 적용) <br>
+(2) [STEP3]&nbsp; 키워드 검색시 쿼리 개선 (Query DSL 적용) <br>
 - 문제 : 라이브러리를 light한 버전으로 바꾸었지만 느린 검색 속도 (500ms 정도)
 - 원인 : 키워드와 카테고리 검색 시, 비효율적인 쿼리문 (contain, join 등)
 - 해결 : 제목, 내용, 키워드마다 반복적으로 나가던 쿼리를 한 번의 동적 쿼리로 처리. 
@@ -190,14 +164,6 @@
   👉 https://www.notion.so/STEP3-Query-DSL-939026377148406f93c7a571b767cd42
 <br>
 
-(4) [STEP4]&nbsp; 검색 결과 정렬 시 쿼리 개선 <br>
-- 문제 및 원인 : 검색 필터 적용 시, 쿼리의 부적절한 사용 <br>
-- 해결 : ‘관심도, 조회수, 댓글수, 생성일자’ 등 검색 결과 정렬 시 동적쿼리로 한 번에 처리 (OrderSpecifier를 사용한 메서드) <br>
-- 결과 : 실행속도 200~300ms -> 100ms 이하로 단축<br>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 부하테스트 결과는 thread 2500정도로 비슷하게 유지.<br>
-  👉 https://www.notion.so/STEP4-Query-b142f6187b964433a73e4118458bc35c
-  <br>
-  
 
 </div>
 </details>
