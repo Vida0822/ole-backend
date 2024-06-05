@@ -20,14 +20,21 @@
 
 <b>2. Security </b>
 - #보안이생명
+- 일반 로그인/소셜 로그인 지원
+- 회원, 비회원 별 인증 로직 
 
 
 <b>3. Community   </b>
-- #
+- #다양한주제 #유용한정보
+- 다양한 의견을 나누는 커뮤니티 
+- 유익한 정보를 제공하는 생활 뉴스
 
 <b>4. Search </b>
 - #내가원하는대로
-- 
+- 카테고리별 공고 조회
+- 검색 필터(연관순, 댓글순, 조회순, 최신순) 제공
+
+
   <br><br><br><br>
 
 
@@ -132,44 +139,10 @@
 
 <br>
 
-(1) [STEP1]&nbsp; 검색 성능 문제와 원인 분석, 개선방향 <br>
-- 문제 : 실행환경(Local, EC2 서버 등)에 따라 속도와 성능 차이가 큼. <br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;검색 조회, 특히 키워드 검색 부분의 속도가 현저히 느림. <br>
-- 원인 : 라이브러리의 비효율적인 사용, 불필요한 쿼리
-- 개선방향 : Jmeter(부하테스트)와 AOP Execution Timer(실행시간 측정) 도입<br> 
- &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ➡︎ 단계별로 향상된 성능과 실행 속도를 측정해 나감. <br>
-👉 https://www.notion.so/STEP1-fad9129c662e44859f1ff7d4df0dd75f
-<br><br>
-
-  
-(2) [STEP3]&nbsp; 키워드 검색시 쿼리 개선 (Query DSL 적용) <br>
-- 문제 : 라이브러리를 light한 버전으로 바꾸었지만 느린 검색 속도 (500ms 정도)
-- 원인 : 키워드와 카테고리 검색 시, 비효율적인 쿼리문 (contain, join 등)
-- 해결 : 제목, 내용, 키워드마다 반복적으로 나가던 쿼리를 한 번의 동적 쿼리로 처리. 
-- 결과 : 부하테스트 쓰레드 700->2500으로 증가<br>
-    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;실행시간은 400~500ms에서 300ms 정도로 단축됨.<br>
-  👉 https://www.notion.so/STEP3-Query-DSL-939026377148406f93c7a571b767cd42
-<br>
 
 
 </div>
 </details>
-
-<details>
-<summary> SSE </summary>
-<div markdown="1">
-
-</div>
-</details>
-
-
-<details>
-<summary> 임시 인증코드 저장 </summary>
-<div markdown="1">
-
-</div>
-</details>
-
 
 <details>
 <summary> CI / CD </summary>
