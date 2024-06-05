@@ -117,7 +117,7 @@
 
 | 설문조사 매칭 기능 | 검색 필터 |
 |:------:|:------:|
-| ![설문조사](https://drive.google.com/file/d/1FCy8cWWhEhno7yn5kCeFHcFALMGB5ZGt/view?usp=sharing) | ![편집상태]() |
+| [영상](https://drive.google.com/file/d/1FCy8cWWhEhno7yn5kCeFHcFALMGB5ZGt/view?usp=sharing) | ![편집상태]() |
 |- 8가지 항목에 대한 최적의 강의 추천 <br> - 이전 설문 내역 기반 맞춤 리스트 출력  | - 카테고리별 검색 <br> - 검색 필터(연관순, 댓글순, 조회순, 최신순) 제공 <br> |
 
 |  찜, 수강신청 기능 | 커뮤니티, 뉴스 기능 |
