@@ -117,7 +117,7 @@
 
 | 설문조사 매칭 기능 | 검색 필터 |
 |:------:|:------:|
-| <img width="250" alt="화면 캡처 2024-06-05 170518" src="https://github.com/Vida0822/Algorithm_Study/assets/132312673/e1bc7442-cf7d-48d2-bfa8-9daf00534736"><br> | <img width="250" alt="필터링" src="https://github.com/Vida0822/Algorithm_Study/assets/132312673/412ca523-d15e-44ff-8b29-775889cadf69"><br> | 
+| <img width="250" height = "150" alt="화면 캡처 2024-06-05 170518" src="https://github.com/Vida0822/Algorithm_Study/assets/132312673/e1bc7442-cf7d-48d2-bfa8-9daf00534736"><br> | <img width="250" height = "150" alt="필터링" src="https://github.com/Vida0822/Algorithm_Study/assets/132312673/412ca523-d15e-44ff-8b29-775889cadf69"><br> | 
 |- 8가지 항목에 대한 최적의 강의 추천 <br> - 이전 설문 내역 기반 맞춤 리스트 출력  | - 카테고리별 검색 <br> - 검색 필터(최신순, 마감순, 신청자순) 제공 <br> |
 | [시연](https://drive.google.com/drive/u/0/home) | [시연]() | 
 
