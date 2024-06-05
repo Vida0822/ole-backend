@@ -15,17 +15,19 @@
 
 <b>1. Matching </b>
 - #설문조사 #최적의성능 
-
+- 사용자 설문 조사 기반 최적의 교육 프로그램 추천
+- 이전 설문 내용 바탕 추천 리스트 보유
 
 <b>2. Security </b>
 - #보안이생명
 
 
 <b>3. Community   </b>
-
+- #
 
 <b>4. Search </b>
-- #내가원하는대로 
+- #내가원하는대로
+- 
   <br><br><br><br>
 
 
@@ -47,7 +49,7 @@
 
 - ### 기간 :
   - 2023.03.10 ~ 2023.04.21
-  - duty sheet : 
+  - 주차별 진행 상황 :  [Review sheet](https://docs.google.com/spreadsheets/d/1f4enmCGzOWNePHoMl2G2G8CcVP9EcqMMRopKrPmJ_u0/edit#gid=1981576930 
 
 <br><br><br>
 
