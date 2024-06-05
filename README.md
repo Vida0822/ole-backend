@@ -49,7 +49,8 @@
 
 - ### 기간 :
   - 2023.03.10 ~ 2023.04.21
-  - 주차별 진행 상황 :  [Review sheet](https://docs.google.com/spreadsheets/d/1f4enmCGzOWNePHoMl2G2G8CcVP9EcqMMRopKrPmJ_u0/edit#gid=1981576930 
+  - 주차별 진행 상황 :
+    [Review sheet](https://docs.google.com/spreadsheets/d/1f4enmCGzOWNePHoMl2G2G8CcVP9EcqMMRopKrPmJ_u0/edit#gid=1981576930 
 
 <br><br><br>
 
