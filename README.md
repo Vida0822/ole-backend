@@ -122,15 +122,15 @@
 
 # 주요 기능
 
-| 설문조사 기능 | 편집상태 조회 기능 |
+| 설문조사 매칭 기능 | 검색 필터 |
 |:------:|:------:|
-| ![검색 조회](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2F4uwWX%2FbtsaJUVJxPH%2FFWx8neryT434R63qB3k9Qk%2Fimg.png) | ![편집상태](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FeRf5I5%2FbtsaqPOT3LP%2FXBLW7tgwkHmAYiEu6TBvy1%2Fimg.png) |
-|- 제목, 내용, 키워드 조회를 통한 우수한 검색 성능<br> - 카테고리별 검색<br> - 검색 필터(연관순, 댓글순, 조회순, 최신순) 제공 <br> |- 게시글 편집 상태 조회<br> - 편집 완료된 경우 수정을 원하는 사용자에게 알림<br> |
+| ![검색 조회]() | ![편집상태]() |
+|- 8가지 항목에 대한 최적의 강의 추천 <br> - 이전 설문 내역 기반 맞춤 리스트 출력  | - 카테고리별 검색 <br> - 검색 필터(연관순, 댓글순, 조회순, 최신순) 제공 <br> |
 
-| 관리자 페이지 기능 | 댓글 및 로그 기능  |
+|  찜, 수강신청 기능 | 커뮤니티, 뉴스 기능 |
 |:------:|:------:|
-| ![관리자](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FE4V5x%2FbtsamXGbUiJ%2F9cZBLjXNvOFt3uNlS4DUg1%2Fimg.png) | ![댓글로그](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FySs8E%2FbtsajdpKFK6%2FIi09fic5HemPuNjvb32Vs1%2Fimg.png) |
-|- 직원의 직급 및 권한 관리<br> - 사내 게시글의 카테고리 등록 및 관리<br> |- 댓글로 커뮤니티 기능 <br> - 로그를 통해 이전과 이후 게시글 비교 가능 <br> |
+| ![관리자]() | ![댓글로그]() |
+|- 비회원도 손쉽게 교육 등록 <br> - 수강 내역 조회 및 등록 관리 <br> |- 다양한 의견을 나누는 커뮤니티 <br> - 유익한 정보를 제공하는 생활 뉴스 <br> |
 
 <br><br>
 
