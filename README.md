@@ -55,14 +55,15 @@
 
 <br>
 <div align=center> 
-  |                                                              |
-| :----------------------------------------------------------- |
-| <br />`Back-end`<br />Java 11 / Spring Boot 2.4 / Spring Data JPA  5.0 <br />/ Query DSL / Spring Security <br /> |
-| <br />`Server/Deployment`<br />Apache Tomcat  <br />AWS EC2 / AWS RDS <br /> |
-| <br />`DB / Cache`<br />MySQL <br />                         |
-| <br />`OS`<br />Linux<br />                                  |
-| <br />`Tools / Test Code`<br />IntelliJ IDEA / JUnit5 <br /> |
-| <br />`Collaborations`<br />Git / Swagger  <br />Notion / Discord <br /> |
+
+|     | 이름   | 
+|-----|------|
+| Back-end | Java 11 / Spring Boot 2.4 / Spring Data JPA  5.0 / Query DSL / Spring Security  |
+|Server/Deployment | Apache Tomcat / AWS EC2 / AWS RDS  |
+| DB | MySQL, RDS  |
+| Tools / Test | IntelliJ IDEA / JUnit5  |
+| Collaborations | Git / Swagger / Notion / Discord   |
+
   <br>
 
 </div>
