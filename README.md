@@ -117,11 +117,9 @@
 
 | 설문조사 매칭 기능 | 검색 필터 |
 |:------:|:------:|
-| <a href = "https://drive.google.com/file/d/1FCy8cWWhEhno7yn5kCeFHcFALMGB5ZGt/view?usp=sharing">
-<img width="300" alt="화면 캡처 2024-06-05 170518" src="https://github.com/Vida0822/Algorithm_Study/assets/132312673/e1bc7442-cf7d-48d2-bfa8-9daf00534736"></a>
-<br>
-| ![편집상태]() |
+| <img width="250" alt="화면 캡처 2024-06-05 170518" src="https://github.com/Vida0822/Algorithm_Study/assets/132312673/e1bc7442-cf7d-48d2-bfa8-9daf00534736"> | ![편집상태]() |
 |- 8가지 항목에 대한 최적의 강의 추천 <br> - 이전 설문 내역 기반 맞춤 리스트 출력  | - 카테고리별 검색 <br> - 검색 필터(연관순, 댓글순, 조회순, 최신순) 제공 <br> |
+| [시연](https://drive.google.com/drive/u/0/home) | [시연]()
 
 |  찜, 수강신청 기능 | 커뮤니티, 뉴스 기능 |
 |:------:|:------:|
