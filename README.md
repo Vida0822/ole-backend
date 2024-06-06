@@ -25,13 +25,14 @@
 
 <b>3. Community   </b>
 - #다양한주제 #유용한정보
-- 다양한 의견을 나누는 커뮤니티 
-- 유익한 정보를 제공하는 생활 뉴스
+- 다양한 의견을 나누는 올래 커뮤니티 
+- 유익한 정보를 제공하는 올래 생활 뉴스
 
 <b>4. Search </b>
 - #내가원하는대로
 - 카테고리별 공고 조회
 - 검색 필터(연관순, 댓글순, 조회순, 최신순) 제공
+- 무료 수업만 조회 가능
 
 
   <br><br><br><br>
@@ -77,8 +78,9 @@
 
 <br><br><br><br>
 
+<!--
 # Service Architecture
-
+--> 
 <br>
 
 # Use-Case Diagram 
@@ -117,13 +119,13 @@
 |:------:|:------:|
 | <img width="250" height = "150" alt="화면 캡처 2024-06-05 170518" src="https://github.com/Vida0822/Algorithm_Study/assets/132312673/e1bc7442-cf7d-48d2-bfa8-9daf00534736"><br> | <img width="250" height = "150" alt="필터링" src="https://github.com/Vida0822/Algorithm_Study/assets/132312673/412ca523-d15e-44ff-8b29-775889cadf69"><br> | 
 |- 8가지 항목에 대한 최적의 강의 추천 <br> - 이전 설문 내역 기반 맞춤 리스트 출력  | - 카테고리별 검색 <br> - 검색 필터(최신, 마감, 신청자순) 제공 <br> - 무료 수업만 조회 <br> |
-| [시연 영상](https://drive.google.com/drive/u/0/home) | [시연 영상]() | 
+| [시연 영상](https://drive.google.com/file/d/1XiHMEKwqobOGGKxtf6QVDwxKABSrrJKD/view?usp=sharing) | [시연 영상](https://drive.google.com/file/d/1rBtnHNun8TUBExG6ViYahIZ8P6fT6c_F/view?usp=sharing) | 
 
 |  찜, 수강신청 기능 | 커뮤니티, 뉴스 기능 |
 |:------:|:------:|
 | <img width="270" height = "150" alt="수강신청" src="https://github.com/Vida0822/Algorithm_Study/assets/132312673/5b0e52a9-d711-4896-906b-b77b9a7e069a"><br> | <img width="270" height = "150" alt="생활뉴스" src="https://github.com/Vida0822/Algorithm_Study/assets/132312673/7084bb2b-cd8f-4309-94d5-607c936043a5"><br> | 
 |- 회원도, 비회원도 손쉽게 교육 등록 <br> - 수강 내역 조회 및 등록 관리 <br> |- 다양한 의견을 나누는 '소통하러올래' <br> - 유익한 정보를 제공하는 '올래생활뉴스' <br> |
-| [시연 영상]() | [시연 영상]()  | 
+| [시연 영상](https://drive.google.com/file/d/106Hk4BpgFyqxqZDo26-N2z0mLXI9aKCP/view?usp=sharing) | [시연 영상](https://drive.google.com/file/d/1uUaYNS34R9DUZG_bZvH0mRR1hVXIdk0w/view?usp=sharing)  | 
 
 <br><br>
 
