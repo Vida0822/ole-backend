@@ -99,7 +99,7 @@
 <br><br><br><br>
 
 # Service Architecture
-![Service Architecture](https://github.com/Vida0822/TumblbugAPI_inSpring/assets/132312673/886837ce-da07-4f57-9dd5-01a5adc4981e)
+![Service Architecture](https://github.com/Vida0822/TumblbugAPI_inSpring/assets/132312673/3e0442af-831e-42e6-939d-23ba383c0b6d)
 
 <br><br>
 
