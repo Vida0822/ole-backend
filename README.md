@@ -98,10 +98,10 @@
 
 <br><br><br><br>
 
-<!--
 # Service Architecture
---> 
-<br>
+![image](https://github.com/Vida0822/TumblbugAPI_inSpring/assets/132312673/3771ae6b-d789-4a4c-9a2e-549a58f8e032)
+
+<br><br>
 
 # Use-Case Diagram 
 <details>
